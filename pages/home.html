@@ -12,18 +12,16 @@
     <link rel="stylesheet" href="../css/style.css">
   </head>
   <body>
-    <!-- <header class="header"></header>
-    <div class="body"></div> -->
     <div class="container">
       <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid ">
           <div class="container__header">
-            <a href="" class="container__header-logo">
+            <a href="/pages/home.html" class="container__header-logo">
               <img src="/img/logo.png" alt="Logo"
                 class="container__header-logo-img">
             </a>
           </div>
-          <div class="container__form">
+          <!-- <div class="container__form">
             <form>
               <div class="input-group">
                 <input type="text" class="container__form-input"
@@ -33,13 +31,13 @@
                     class="bi bi-search"></i></button>
               </div>
             </form>
-          </div>
+          </div> -->
           <div class="container__member">
-            <a href="" class="container__member-login">
+            <a class="container__member-login" data-bs-toggle="modal" data-bs-target="#loginModal">
               <i class="bi bi-person-fill container__member-login-logo"></i>
               Đăng nhập
             </a>
-            <a href="" class="container__member-register">Đăng ký thành viên</a>
+            <a class="container__member-register" data-bs-toggle="modal" data-bs-target="#registerModal">Đăng ký thành viên</a>
           </div>
         </div>
       </nav>
@@ -47,12 +45,12 @@
         <div class="nav_menu">
           <ul class="nav__list">
             <li class="nav__item">
-              <a href="" class="nav__item-link nav__item-link-logo">
+              <a href="/pages/home.html" class="nav__item-link nav__item-link-logo">
                 <i class="bi bi-house-fill nav__item-logo"></i>
               </a>
             </li>
             <li class="nav__item nav__item--before">
-              <a href="" class="nav__item-link">Tiếng anh phổ thông</a>
+              <a href="./book_hightschool.html" class="nav__item-link">Tiếng anh phổ thông</a>
               <div class="sub__nav">
                 <ul class="sub__nav-list">
                   <li class="sub__nav-item">
@@ -117,7 +115,7 @@
                 </div>
               </li>
               <li class="nav__item">
-                <a href="" class="nav__item-link">Học qua video</a>
+                <a href="./news.html" class="nav__item-link">Học qua video</a>
                 <div class="sub__nav">
                   <ul class="sub__nav-list">
                     <li class="sub__nav-item sub__nav-item--fist-child">
@@ -210,17 +208,25 @@
                 </div>
               </li>
               <li class="nav__item">
-                <a href="" class="nav__item-link">Tra từ điển</a>
+                <a href="./dictionary.html" class="nav__item-link">Tra từ điển</a>
               </li>
               <li class="nav__item">
-                <a href="" class="nav__item-link">Bài viết</a>
+                <a href="./xp.html" class="nav__item-link">Bài viết</a>
               </li>
             </ul>
           </div>
         </nav>
         <div class="banner">
-          <div class="banner__top"></div>
-          <div class="banner__body"></div>
+          <div class="banner__top">
+            <a href="">
+              <img src="https://data.tienganh123.com/images/banner/lt123_1000_90_new2.jpg" alt="" style="width:100%;height:85px">
+            </a>
+          </div>
+          <div class="banner__body">
+            <a href="">
+              <img src="https://data.tienganh123.com/images/popup/banner_km_thang7_2022_ngang.jpg" alt="" style="width:100%;height:150px">
+            </a>
+          </div>
           <div calss="banner__slider">
             <div id="carouselExampleIndicators" class="carousel slide"
               data-bs-ride="true">
@@ -258,7 +264,7 @@
         </div>
         <div class="body__lesson">
           <div class="header__title">
-            <a href="" class="body__lesson-link  body__lesson-title">
+            <a href="./example.html" class="body__lesson-link body__lesson-title">
               HỌC PHÁT ÂM TIẾNG ANH <span>VỚI GIÁO VIÊN MỸ</span>
               <a href="" class=" body__lesson-title"><i
                   class="body__lesson-link-logo bi bi-chevron-right"></i></a>
@@ -271,113 +277,86 @@
             <div class="row">
               <div class="col-4 p-0 mb-4">
                 <figure class="figure">
-                  <a class="body__lesson-title-link" href="">
+                  <a class="body__lesson-title-link" href="./sub_example_a.html">
                     <img
-                    src="https://www.tienganh123.com/file/baihoc/phat_am/images1/unit1.png"
+                      src="https://www.tienganh123.com/file/baihoc/phat_am/images1/unit1.png"
+                      class="figure-img img-fluid rounded body__lesson-img"
+                      alt="...">
+                    <figcaption class="figure-caption"><a
+                        class="figure-caption__link" href="./sub_example_a.html"><span>1</span>a
+                        - âm /æ/
+                      </a></figcaption>
+                  </a>
+                </figure>
+              </div>
+              <div class="col-4 p-0 mb-4">
+                <figure class="figure">
+                  <a class="body__lesson-title-link" href="./sub_example_b.html">
+                    <img
+                    src="https://www.tienganh123.com/file/baihoc/phat_am/images1/unit2.png"
                     class="figure-img img-fluid rounded body__lesson-img"
                     alt="...">
                   <figcaption class="figure-caption"><a
-                      class="figure-caption__link" href=""><span>1</span>a
-                      - âm /æ/
+                      class="figure-caption__link" href="./sub_example_b.html"><span>2</span>b
+                      - âm /b/
                     </a></figcaption>
                   </a>
                 </figure>
               </div>
               <div class="col-4 p-0 mb-4">
                 <figure class="figure">
-                  <img
-                    src="https://www.tienganh123.com/file/baihoc/phat_am/images1/unit2.png"
-                    class="figure-img img-fluid rounded body__lesson-img"
-                    alt="...">
-                  <figcaption class="figure-caption"><a
-                      class="figure-caption__link" href=""><span>2</span>b
-                      - âm /b/
-
-                    </a></figcaption>
-                </figure>
-              </div>
-              <div class="col-4 p-0 mb-4">
-                <figure class="figure">
-                  <img
+                  <a class="body__lesson-title-link" href="./sub_example_c.html">
+                    <img
                     src="https://www.tienganh123.com/file/baihoc/phat_am/images1/unit3.png"
                     class="figure-img img-fluid rounded body__lesson-img"
                     alt="...">
                   <figcaption class="figure-caption"><a
-                      class="figure-caption__link" href=""><span>3</span>c
+                      class="figure-caption__link" href="./sub_example_c.html"><span>3</span>c
                       - âm /k/
                     </a></figcaption>
+                  </a>
                 </figure>
               </div>
               <div class="col-4 p-0 mb-4">
                 <figure class="figure">
-                  <img
+                  <a class="body__lesson-title-link" href="./sub_example_d.html">
+                    <img
                     src="https://www.tienganh123.com/file/baihoc/phat_am/images1/unit4.png"
                     class="figure-img img-fluid rounded body__lesson-img"
                     alt="...">
                   <figcaption class="figure-caption"><a
-                      class="figure-caption__link" href=""><span>4</span>d
+                      class="figure-caption__link" href="./sub_example_d.html"><span>4</span>d
                       - âm /d/
                     </a></figcaption>
+                  </a>
                 </figure>
               </div>
               <div class="col-4 p-0 mb-4">
                 <figure class="figure">
-                  <img
+                  <a class="body__lesson-title-link"  href="./sub_example_e.html">
+                    <img
                     src="https://www.tienganh123.com/file/baihoc/phat_am/images1/unit5.png"
                     class="figure-img img-fluid rounded body__lesson-img"
                     alt="...">
                   <figcaption class="figure-caption"><a
-                      class="figure-caption__link" href=""><span>5</span>e
+                      class="figure-caption__link" href="./sub_example_e.html"><span>5</span>e
                       - âm /e/
                     </a></figcaption>
+                  </a>
                 </figure>
               </div>
               <div class="col-4 p-0 mb-4">
                 <figure class="figure">
-                  <img
+                  <a class="body__lesson-title-link" href="./sub_example_f.html">
+                    <img
                     src="https://www.tienganh123.com/file/baihoc/phat_am/images1/unit6.png"
                     class="figure-img img-fluid rounded body__lesson-img"
                     alt="...">
                   <figcaption class="figure-caption"><a
-                      class="figure-caption__link" href=""><span>6</span>f
+                      class="figure-caption__link" href="./sub_example_f.html"><span>6</span>f
                       - âm /f/
                     </a></figcaption>
-                </figure>
-              </div>
-              <div class="col-4 p-0 mb-4">
-                <figure class="figure">
-                  <img
-                    src="https://www.tienganh123.com/file/baihoc/phat_am/images1/unit7.png"
-                    class="figure-img img-fluid rounded body__lesson-img"
-                    alt="...">
-                  <figcaption class="figure-caption"><a
-                      class="figure-caption__link" href=""><span>7</span>g
-                      - âm /g/, /dʒ/
-                    </a></figcaption>
-                </figure>
-              </div>
-              <div class="col-4 p-0 mb-4">
-                <figure class="figure">
-                  <img
-                    src="https://www.tienganh123.com/file/baihoc/phat_am/images1/unit8.png"
-                    class="figure-img img-fluid rounded body__lesson-img"
-                    alt="...">
-                  <figcaption class="figure-caption"><a
-                      class="figure-caption__link" href=""><span>8</span>h
-                      - âm /h/
-                    </a></figcaption>
-                </figure>
-              </div>
-              <div class="col-4 p-0 mb-4">
-                <figure class="figure">
-                  <img
-                    src="https://www.tienganh123.com/file/baihoc/phat_am/images1/unit9.png"
-                    class="figure-img img-fluid rounded body__lesson-img"
-                    alt="...">
-                  <figcaption class="figure-caption"><a
-                      class="figure-caption__link" href=""><span>9</span>i - âm
-                      /ɪ/
-                    </a></figcaption>
+                  </a>
                 </figure>
               </div>
             </div>
@@ -392,7 +371,7 @@
           </div>
           <div class="new__lesson">
             <div class="header__title">
-              <a href="" class="body__lesson-link  body__lesson-title">
+              <a href="./new_lesson.html" class="body__lesson-link body__lesson-title">
                 BÀI MỚI <span>TIẾNG ANH PHỔ THÔNG</span>
                 <a href="" class=" body__lesson-title"><i
                     class="body__lesson-link-logo bi bi-chevron-right"></i></a>
@@ -460,12 +439,12 @@
                   16:58:18</span>
               </li>
             </ul>
-            <a href="" class="new__lesson-btn body__lesson-footer-btn">Xem thêm</a>
+            <a href="./new_lesson.html" class="new__lesson-btn body__lesson-footer-btn">Xem thêm</a>
           </div>
           <div class="lesson__banner"></div>
           <div class="lesson__hightschool">
             <div class="header__title">
-              <a href="" class="body__lesson-link  body__lesson-title">
+              <a href="./book_hightschool.html" class="body__lesson-link body__lesson-title">
                 TIẾNG ANH CƠ SỞ
                 <a href="" class=" body__lesson-title"><i
                     class="body__lesson-link-logo bi bi-chevron-right"></i></a>
@@ -474,13 +453,14 @@
             <div class="container text-center">
               <div class="row">
                 <div class="col ">
-                  <a href="" class="lesson__hightschool-link">
+                  <a href="./book_hightschool.html" class="lesson__hightschool-link">
                     <img class="lesson__hightschool-link-img w-100"
                       src="/img/hight_school.png" alt="">
-                    <span class="lesson__hightschool-link-content">Tiếng Anh<br/>trung học cở sở</span>
-                  </a>
+                    <span class="lesson__hightschool-link-content">Tiếng Anh<br/>trung
+                        học cở sở</span>
+                    </a>
                     <div class="list-group list-group__color ">
-                      <a href="#" class="list-group-item d-flex
+                      <a href="./class_6.html " class="list-group-item d-flex
                         justify-content-between align-items-center
                         lesson__hightschool-list">Tiếng Anh lớp 6 <span
                           class="">6</span></a>
@@ -516,7 +496,7 @@
               </div>
               <div class="point">
                 <div class="header__title">
-                  <a href="" class="body__lesson-link  body__lesson-title">
+                  <a href="" class="body__lesson-link body__lesson-title">
                     LUYỆN KỸ NĂNG
                     <a href="" class=" body__lesson-title"><i
                         class="body__lesson-link-logo bi bi-chevron-right"></i></a>
@@ -525,7 +505,7 @@
                 <div class="container text-center point__content">
                   <div class="row">
                     <div class="col-3">
-                      <a calss="point-link" href="">
+                      <a calss="point-link" href="./listen.html">
                         <img src="/img/ig_lpa.jpg" alt="" class="point-img">
                         <p class="point-img__content">Luyện <span>phát âm</span></p>
                       </a>
@@ -560,7 +540,7 @@
               </div>
               <div class="lesson__video">
                 <div class="header__title">
-                  <a href="" class="body__lesson-link  body__lesson-title">
+                  <a href="" class="body__lesson-link body__lesson-title">
                     HỌC QUA VIDEO
                     <a href="" class=" body__lesson-title"><i
                         class="body__lesson-link-logo bi bi-chevron-right"></i></a>
@@ -574,10 +554,10 @@
                           calss="video__img-img" src="/img/video1.png" alt=""></a>
                     </div>
                     <div class="lesson__video-heading">
-                      <a class="lesson__video-heading-link" href="">Luyện nghe
+                      <a class="lesson__video-heading-link" href="./news.html">Luyện nghe
                         qua<span> Tienganh123 news</span></a>
                       <div class="sup__div"><i class="bi bi-camera-video-fill"></i><a
-                          href="" class="lesson__video-heading-suplink">Drivers
+                          href="./news.html" class="lesson__video-heading-suplink">Drivers
                           can send driving...</a></div>
                     </div>
                   </li>
@@ -700,7 +680,7 @@
                   </div>
                   <div class="lesson-entertainment">
                     <div class="header__title">
-                      <a href="" class="body__lesson-link  body__lesson-title">
+                      <a href="" class="body__lesson-link body__lesson-title">
                         GIẢI TRÍ VỚI TIẾNG ANH
                         <a href="" class=" body__lesson-title"><i
                             class="body__lesson-link-logo bi bi-chevron-right"></i></a>
@@ -710,7 +690,7 @@
                       <div class="row">
                         <div class="col-6">
                           <div class="lesson-entertainment__film">
-                            <a class="lesson-entertainment__link" href="">
+                            <a class="lesson-entertainment__link" href="./music.html">
                               <img class="lesson-entertainment__img"
                                 src="/img/music.png" alt="">
                               <div class="lesson-entertainment__img-title">
@@ -724,7 +704,7 @@
                           </div>
                           <div class="list">
                             <div class="list__music">
-                              <a href="">
+                              <a href="./music_1.html">
                                 <span class="list__content"><i class="bi
                                     bi-music-note-beamed
                                     lesson-entertainment__img-title-icon"></i>If
@@ -787,70 +767,144 @@
                     </div>
                   </div>
                 </div>
-             
-              <footer class="footer">
-                <div class="container">
-                  <div class="row">
-                    <div class="col-4">
-                      <ul class="footer__list">
-                        <li class="footer__list-item">
-                          <a class="footer__list-item-link" href="">Tin Tức</a>
-                        </li>
-                        <li>
-                          <a class="footer__list-item-link" href="">Tin tức từ TiếngAnh123</a>
-                        </li>
-                        <li>
-                          <a class="footer__list-item-link" href="">Kinh nghiệm học tập</a>
-                        </li>
-                        <li>
-                          <a class="footer__list-item-link" href="">Hướng dẫn sử dụng</a>
-                        </li>
-                        <li>
-                          <a class="footer__list-item-link" href="">Nhận xét mới nhất</a>
-                        </li>
-                      </ul>
+
+                <footer class="footer">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-4">
+                        <ul class="footer__list">
+                          <li class="footer__list-item">
+                            <a class="footer__list-item-link" href="">Tin Tức</a>
+                          </li>
+                          <li>
+                            <a class="footer__list-item-link" href="">Tin tức từ
+                              TiếngAnh123</a>
+                          </li>
+                          <li>
+                            <a class="footer__list-item-link" href="">Kinh
+                              nghiệm học tập</a>
+                          </li>
+                          <li>
+                            <a class="footer__list-item-link" href="">Hướng dẫn
+                              sử dụng</a>
+                          </li>
+                          <li>
+                            <a class="footer__list-item-link" href="">Nhận xét
+                              mới nhất</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="col-4">
+                        <ul class="footer__list">
+                          <li class="footer__list-item">
+                            <a class="footer__list-item-link" href="">Tiếng Anh
+                              phổ thông</a>
+                          </li>
+                          <li>
+                            <a class="footer__list-item-link" href="">Tiếng Anh
+                              lớp 6</a>
+                          </li>
+                          <li>
+                            <a class="footer__list-item-link" href="">Tiếng Anh
+                              lớp 7</a>
+                          </li>
+                          <li>
+                            <a class="footer__list-item-link" href="">Tiếng Anh
+                              lớp 8</a>
+                          </li>
+                          <li>
+                            <a class="footer__list-item-link" href="">Tiếng Anh
+                              lớp 9</a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="col-4">
+                        <ul class="footer__list">
+                          <li class="footer__list-item">
+                            <a class="footer__list-item-link" href="">Chấm điểm
+                              online</a>
+                          </li>
+                          <li>
+                            <a class="footer__list-item-link" href="">Viết qua
+                              tranh (dễ)</a>
+                          </li>
+                          <li>
+                            <a class="footer__list-item-link" href="">Viết bài
+                              luận</a>
+                          </li>
+                          <li>
+                            <a class="footer__list-item-link" href="">Luyện đọc
+                              đoạn văn</a>
+                          </li>
+                          <li>
+                            <a class="footer__list-item-link" href="">Nghe và
+                              viết lại</a>
+                          </li>
+                        </ul>
+                      </div>
                     </div>
-                    <div class="col-4">
-                      <ul class="footer__list">
-                        <li class="footer__list-item">
-                          <a class="footer__list-item-link" href="">Tiếng Anh phổ thông</a>
-                        </li>
-                        <li>
-                          <a class="footer__list-item-link" href="">Tiếng Anh lớp 6</a>
-                        </li>
-                        <li>
-                          <a class="footer__list-item-link" href="">Tiếng Anh lớp 7</a>
-                        </li>
-                        <li>
-                          <a class="footer__list-item-link" href="">Tiếng Anh lớp 8</a>
-                        </li>
-                        <li>
-                          <a class="footer__list-item-link" href="">Tiếng Anh lớp 9</a>
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="col-4">
-                      <ul class="footer__list">
-                        <li class="footer__list-item">
-                          <a class="footer__list-item-link" href="">Chấm điểm online</a>
-                        </li>
-                        <li>
-                          <a class="footer__list-item-link" href="">Viết qua tranh (dễ)</a>
-                        </li>
-                        <li>
-                          <a class="footer__list-item-link" href="">Viết bài luận</a>
-                        </li>
-                        <li>
-                          <a class="footer__list-item-link" href="">Luyện đọc đoạn văn</a>
-                        </li>
-                        <li>
-                          <a class="footer__list-item-link" href="">Nghe và viết lại</a>
-                        </li>
-                      </ul>
+                  </div>
+                </footer>
+
+                <!-- Dang nhap -->
+                <div class="modal fade" id="loginModal"
+                  data-bs-backdrop="static" data-bs-keyboard="false"
+                  tabindex="-1" aria-labelledby="staticBackdropLabel"
+                  aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-body">
+                        <h4>Đăng nhập</h4>
+                      <form action="">
+                        <div class="mb-3">
+                          <label for="email" class="form-label">Email</label>
+                          <input type="email" class="form-control form-input" id="email" placeholder="Nhập email">
+                        </div>
+                        <div class="mb-3">
+                          <label for="password" class="form-label">Password</label>
+                          <input type="password" class="form-control form-input" id="password" placeholder="Nhập mật khẩu">
+                        </div>
+                      </form>
+                      <div  class="modal-footer">
+                        <button type="submit" class="btn btn-primary btn-primary__focus">Đăng nhập</button>
+                        <button type="button" class="btn btn-secondary btn-primary__closer" data-bs-dismiss="modal">Close</button>
+                      </div>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </footer>
+
+                <!-- Dang ky -->
+                <div class="modal fade" id="registerModal"
+                data-bs-backdrop="static" data-bs-keyboard="false"
+                tabindex="-1" aria-labelledby="staticBackdropLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-body">
+                      <h4>Đăng ký</h4>
+                      <form action="">
+                        <div class="mb-3">
+                          <label for="name" class="form-label">Tên</label>
+                          <input type="text" class="form-control form-input" id="name" placeholder="Nhập tên">
+                        </div>
+                        <div class="mb-3">
+                          <label for="email" class="form-label">Email</label>
+                          <input type="email" class="form-control form-input" id="email" placeholder="Nhập email">
+                        </div>
+                        <div class="mb-3">
+                          <label for="password" class="form-label">Password</label>
+                          <input type="password" class="form-control form-input" id="password" placeholder="Nhập mật khẩu">
+                        </div>
+                        <div  class="modal-footer">
+                          <button type="submit" class="btn btn-primary btn-primary__focus">Đăng ký</button>
+                          <button type="button" class="btn btn-secondary btn-primary__closer" data-bs-dismiss="modal">Close</button>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
               </div>
               <script src="../js/bootstrap.min.js"></script>
             </body>

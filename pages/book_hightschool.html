@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tiếng anh phổ thông</title>
+    <!-- <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.1.1-web/css/all.min.css"> -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../css/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid ">
+          <div class="container__header">
+            <a href="/pages/home.html" class="container__header-logo">
+              <img src="/img/logo.png" alt="Logo"
+                class="container__header-logo-img">
+            </a>
+          </div>
+          <!-- <div class="container__form">
+            <form>
+              <div class="input-group">
+                <input type="text" class="container__form-input"
+                  placeholder="Tìm kiếm bài học" aria-label="Recipient's
+                  username" aria-describedby="button-addon2">
+                <button class="btn border-0 container__form-btn" type="button"><i
+                    class="bi bi-search"></i></button>
+              </div>
+            </form>
+          </div> -->
+          <div class="container__member">
+            <a class="container__member-login " data-bs-toggle="modal" data-bs-target="#loginModal">
+              <i class="bi bi-person-fill container__member-login-logo"></i>
+              Đăng nhập
+            </a>
+            <a class="container__member-register" data-bs-toggle="modal" data-bs-target="#registerModal">Đăng ký thành viên</a>
+          </div>
+        </div>
+      </nav>
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="nav_menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="/pages/home.html" class="nav__item-link nav__item-link-logo">
+                <i class="bi bi-house-fill nav__item-logo"></i>
+              </a>
+            </li>
+            <li class="nav__item nav__item--before">
+              <a href="./book_hightschool.html" class="nav__item-link">Tiếng anh phổ thông</a>
+              <div class="sub__nav">
+                <ul class="sub__nav-list">
+                  <li class="sub__nav-item">
+                    <a href="" class="sub__nav-item-link">Tiếng Anh lớp 6</a>
+                  </li>
+                  <li class="sub__nav-item">
+                    <a href="" class="sub__nav-item-link">Tiếng Anh lớp 6 - Sách
+                      mới</a>
+                  </li>
+                  <li class="sub__nav-item">
+                    <a href="" class="sub__nav-item-link">Giải bài tập SGK Tiếng
+                      Anh lớp 6 - Sách mới</a>
+                  </li>
+                  <li class="sub__nav-item">
+                    <a href="" class="sub__nav-item-link">Tiếng Anh lớp 7</a>
+                  </li>
+                  <li class="sub__nav-item">
+                    <a href="" class="sub__nav-item-link">Tiếng Anh lớp 7 - Sách
+                      mới</a>
+                  </li>
+                  <li class="sub__nav-item">
+                    <a href="" class="sub__nav-item-link">Tiếng Anh lớp 8</a>
+                  </li>
+                  <li class="sub__nav-item">
+                    <a href="" class="sub__nav-item-link">Tiếng Anh lớp 8 - Sách
+                      mới</a>
+                  </li>
+                  <li class="sub__nav-item">
+                    <a href="" class="sub__nav-item-link">Tiếng Anh lớp 9</a>
+                  </li>
+                  <li class="sub__nav-item">
+                    <a href="" class="sub__nav-item-link">Tiếng Anh lớp 9 - Sách
+                      mới</a>
+                  </li>
+                  <li class="sub__nav-item">
+                  </ul>
+                </div>
+              </li>
+              <li class="nav__item">
+                <a href="" class="nav__item-link">Kỹ năng</a>
+                <div class="sub__nav">
+                  <ul class="sub__nav-list">
+                    <li class="sub__nav-item">
+                      <a href="" class="sub__nav-item-link">Phát âm tiếng Anh</a>
+                    </li>
+                    <li class="sub__nav-item">
+                      <a href="" class="sub__nav-item-link">Ngữ pháp tiếng Anh</a>
+                    </li>
+                    <li class="sub__nav-item">
+                      <a href="" class="sub__nav-item-link">Từ vựng tiếng Anh</a>
+                    </li>
+                    <li class="sub__nav-item">
+                      <a href="" class="sub__nav-item-link">Nghe</a>
+                    </li>
+                    <li class="sub__nav-item">
+                      <a href="" class="sub__nav-item-link">Đọc</a>
+                    </li>
+                    <li class="sub__nav-item">
+                      <a href="" class="sub__nav-item-link">Viết</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="nav__item">
+                <a href="./news.html" class="nav__item-link">Học qua video</a>
+                <div class="sub__nav">
+                  <ul class="sub__nav-list">
+                    <li class="sub__nav-item sub__nav-item--fist-child">
+                      <a href="" class="sub__nav-item-link
+                        sub__nav-item-link--fist-child">Luyện nghe tiếng Anh</a>
+                      <div class="sub__child">
+                        <ul class="sub__chill-list">
+                          <li class="sub__chill-item">
+                            <a href="" class="sub__chill-item-link">Arts</a>
+                          </li>
+                          <li class="sub__chill-item">
+                            <a href="" class="sub__chill-item-link">Business</a>
+                          </li>
+                          <li class="sub__chill-item">
+                            <a href="" class="sub__chill-item-link">Interview</a>
+                          </li>
+                          <li class="sub__chill-item">
+                            <a href="" class="sub__chill-item-link">Travel</a>
+                          </li>
+                          <li class="sub__chill-item">
+                            <a href="" class="sub__chill-item-link">Opinion</a>
+                          </li>
+                          <li class="sub__chill-item">
+                            <a href="" class="sub__chill-item-link">Technology</a>
+                          </li>
+                          <li class="sub__chill-item">
+                            <a href="" class="sub__chill-item-link">Entertainment</a>
+                          </li>
+                          <li class="sub__chill-item">
+                            <a href="" class="sub__chill-item-link">Environment</a>
+                          </li>
+                        </ul>
+                        <ul class="sub__chill-list">
+                          <li class="sub__chill-item">
+                            <a href="" class="sub__chill-item-link">Health</a>
+                          </li>
+                          <li class="sub__chill-item">
+                            <a href="" class="sub__chill-item-link">Living</a>
+                          </li>
+                          <li class="sub__chill-item">
+                            <a href="" class="sub__chill-item-link">Sports</a>
+                          </li>
+                          <li class="sub__chill-item">
+                            <a href="" class="sub__chill-item-link">Weather</a>
+                          </li>
+                          <li class="sub__chill-item">
+                            <a href="" class="sub__chill-item-link">Animals</a>
+                          </li>
+                          <li class="sub__chill-item">
+                            <a href="" class="sub__chill-item-link">Finance</a>
+                          </li>
+                          <li class="sub__chill-item">
+                            <a href="" class="sub__chill-item-link">News</a>
+                          </li>
+                          <li class="sub__chill-item">
+                            <a href="" class="sub__chill-item-link">Science</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li class="sub__nav-item">
+                      <a href="" class="sub__nav-item-link">VOA: English in a
+                        Minute</a>
+                    </li>
+                    <li class="sub__nav-item">
+                      <a href="" class="sub__nav-item-link">Học tiếng Anh qua
+                        CNN</a>
+                    </li>
+                    <li class="sub__nav-item">
+                      <a href="" class="sub__nav-item-link">Học tiếng Anh qua
+                        BBC</a>
+                    </li>
+                    <li class="sub__nav-item">
+                      <a href="" class="sub__nav-item-link">Học tiếng Anh qua
+                        Video VOA</a>
+                    </li>
+                    <li class="sub__nav-item">
+                      <a href="" class="sub__nav-item-link">Học tiếng Anh với
+                        người nổi tiếng</a>
+                    </li>
+                    <li class="sub__nav-item">
+                      <a href="" class="sub__nav-item-link">Học tiếng Anh qua
+                        Youtube</a>
+                    </li>
+                    <li class="sub__nav-item">
+                      <a href="" class="sub__nav-item-link">Học tiếng Anh qua
+                        Video TED</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="nav__item">
+                <a href="./dictionary.html" class="nav__item-link">Tra từ điển</a>
+              </li>
+              <li class="nav__item">
+                <a href="./xp.html" class="nav__item-link">Bài viết</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div class="container container__background">
+            <div class="book">
+                <h2>Tiếng Anh Cơ Sở</h2>
+                <p>Bộ giáo trình dành cho học sinh phổ thông các lớp từ 6 đến 12 và đang ôn thi Đại Học các khối Tiếng Anh.
+                    Hệ thống bài học theo sách giáo khoa đã được điện tử hóa và phương pháp học thông minh, hiệu quả đang được rất nhiều học sinh theo học.
+                </p>
+                <div class="book-list">
+                    <h3>Tiếng Anh lớp 6</h3>
+                    <div class="row text-center">
+                        <div class="col-6">
+                            <div class="border shadow mb-5 bg-body rounded-4 overflow-hidden">
+                                <a class="book-list__link" href="./class_6.html">
+                                    <div class="book-list__img">
+                                        <img src="/img/book/lop-6-moi.png"  width="100%" height="100%" alt="">
+                                    </div>
+                                    <div class="mb-3">
+                                        <p class="text-uppercase">Tiếng Anh lớp 6</p>
+                                        <span>Sách mới</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="border shadow mb-5 bg-body rounded-4 overflow-hidden">
+                                <a class="book-list__link" href="">
+                                    <div class="book-list__img">
+                                        <img src="/img/book/lop-6-cu.png"  width="100%" height="100%" alt="">
+                                    </div>
+                                    <div class="mb-3">
+                                        <p class="text-uppercase">Tiếng Anh lớp 6</p>
+                                        <span>Sách mới</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div> 
+                    <h3>Tiếng Anh lớp 7</h3>
+                    <div class="row text-center">
+                        <div class="col-6">
+                            <div class="border shadow mb-5 bg-body rounded-4 overflow-hidden">
+                                <a class="book-list__link" href="">
+                                    <div class="book-list__img">
+                                        <img src="/img/book/lop-7-moi.png"  width="100%" height="100%" alt="">
+                                    </div>
+                                    <div class="mb-3">
+                                        <p class="text-uppercase">Tiếng Anh lớp 7</p>
+                                        <span>Sách mới</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="border shadow mb-5 bg-body rounded-4 overflow-hidden">
+                                <a class="book-list__link" href="">
+                                    <div class="book-list__img">
+                                        <img src="/img/book/lop-7-cu.png"  width="100%" height="100%" alt="">
+                                    </div>
+                                    <div class="mb-3">
+                                        <p class="text-uppercase">Tiếng Anh lớp 7</p>
+                                        <span>Sách cũ</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div> 
+                    <h3>Tiếng Anh lớp 8</h3>
+                    <div class="row text-center">
+                        <div class="col-6">
+                            <div class="border shadow mb-5 bg-body rounded-4 overflow-hidden">
+                                <a class="book-list__link" href="">
+                                    <div class="book-list__img">
+                                        <img src="/img/book/lop-8-moi.png"  width="100%" height="100%" alt="">
+                                    </div>
+                                    <div class="mb-3">
+                                        <p class="text-uppercase">Tiếng Anh lớp 8</p>
+                                        <span>Sách mới</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="border shadow mb-5 bg-body rounded-4 overflow-hidden">
+                                <a class="book-list__link" href="">
+                                    <div class="book-list__img">
+                                        <img src="/img/book/lop-8-cu.png"  width="100%" height="100%" alt="">
+                                    </div>
+                                    <div class="mb-3">
+                                        <p class="text-uppercase">Tiếng Anh lớp 8</p>
+                                        <span>Sách cũ</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div> 
+                    <h3>Tiếng Anh lớp 9</h3>
+                    <div class="row text-center">
+                        <div class="col-6">
+                            <div class="border shadow mb-5 bg-body rounded-4 overflow-hidden">
+                                <a class="book-list__link" href="">
+                                    <div class="book-list__img">
+                                        <img src="/img/book/lop-9-moi.png"  width="100%" height="100%" alt="">
+                                    </div>
+                                    <div class="mb-3">
+                                        <p class="text-uppercase">Tiếng Anh lớp 9</p>
+                                        <span>Sách mới</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="border shadow mb-5 bg-body rounded-4 overflow-hidden">
+                                <a class="book-list__link" href="">
+                                    <div class="book-list__img">
+                                        <img src="/img/book/lop-9-cu.png"  width="100%" height="100%" alt="">
+                                    </div>
+                                    <div class="mb-3">
+                                        <p class="text-uppercase">Tiếng Anh lớp 9</p>
+                                        <span>Sách cũ</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>                  
+                </div>
+            </div>
+        </div>
+        <div class="banner__top"></div>
+        <footer class="footer">
+            <div class="container">
+              <div class="row">
+                <div class="col-4">
+                  <ul class="footer__list">
+                    <li class="footer__list-item">
+                      <a class="footer__list-item-link" href="">Tin Tức</a>
+                    </li>
+                    <li>
+                      <a class="footer__list-item-link" href="">Tin tức từ
+                        TiếngAnh123</a>
+                    </li>
+                    <li>
+                      <a class="footer__list-item-link" href="">Kinh
+                        nghiệm học tập</a>
+                    </li>
+                    <li>
+                      <a class="footer__list-item-link" href="">Hướng dẫn
+                        sử dụng</a>
+                    </li>
+                    <li>
+                      <a class="footer__list-item-link" href="">Nhận xét
+                        mới nhất</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-4">
+                  <ul class="footer__list">
+                    <li class="footer__list-item">
+                      <a class="footer__list-item-link" href="">Tiếng Anh
+                        phổ thông</a>
+                    </li>
+                    <li>
+                      <a class="footer__list-item-link" href="">Tiếng Anh
+                        lớp 6</a>
+                    </li>
+                    <li>
+                      <a class="footer__list-item-link" href="">Tiếng Anh
+                        lớp 7</a>
+                    </li>
+                    <li>
+                      <a class="footer__list-item-link" href="">Tiếng Anh
+                        lớp 8</a>
+                    </li>
+                    <li>
+                      <a class="footer__list-item-link" href="">Tiếng Anh
+                        lớp 9</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-4">
+                  <ul class="footer__list">
+                    <li class="footer__list-item">
+                      <a class="footer__list-item-link" href="">Chấm điểm
+                        online</a>
+                    </li>
+                    <li>
+                      <a class="footer__list-item-link" href="">Viết qua
+                        tranh (dễ)</a>
+                    </li>
+                    <li>
+                      <a class="footer__list-item-link" href="">Viết bài
+                        luận</a>
+                    </li>
+                    <li>
+                      <a class="footer__list-item-link" href="">Luyện đọc
+                        đoạn văn</a>
+                    </li>
+                    <li>
+                      <a class="footer__list-item-link" href="">Nghe và
+                        viết lại</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </footer>
+    </div>
+    
+                <!-- Dang nhap -->
+                <div class="modal fade" id="loginModal"
+                  data-bs-backdrop="static" data-bs-keyboard="false"
+                  tabindex="-1" aria-labelledby="staticBackdropLabel"
+                  aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-body">
+                        <h4>Đăng nhập</h4>
+                      <form action="">
+                        <div class="mb-3">
+                          <label for="email" class="form-label">Email</label>
+                          <input type="email" class="form-control form-input" id="email" placeholder="Nhập email">
+                        </div>
+                        <div class="mb-3">
+                          <label for="password" class="form-label">Password</label>
+                          <input type="password" class="form-control form-input" id="password" placeholder="Nhập mật khẩu">
+                        </div>
+                      </form>
+                      <div  class="modal-footer">
+                        <button type="submit" class="btn btn-primary btn-primary__focus">Đăng nhập</button>
+                        <button type="button" class="btn btn-secondary btn-primary__closer" data-bs-dismiss="modal">Close</button>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                    <!-- Dang ky -->
+                    <div class="modal fade" id="registerModal"
+                    data-bs-backdrop="static" data-bs-keyboard="false"
+                    tabindex="-1" aria-labelledby="staticBackdropLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-body">
+                          <h4>Đăng ký</h4>
+                          <form action="">
+                            <div class="mb-3">
+                              <label for="name" class="form-label">Tên</label>
+                              <input type="text" class="form-control form-input" id="name" placeholder="Nhập tên">
+                            </div>
+                            <div class="mb-3">
+                              <label for="email" class="form-label">Email</label>
+                              <input type="email" class="form-control form-input" id="email" placeholder="Nhập email">
+                            </div>
+                            <div class="mb-3">
+                              <label for="password" class="form-label">Password</label>
+                              <input type="password" class="form-control form-input" id="password" placeholder="Nhập mật khẩu">
+                            </div>
+                            <div  class="modal-footer">
+                              <button type="submit" class="btn btn-primary btn-primary__focus">Đăng ký</button>
+                              <button type="button" class="btn btn-secondary btn-primary__closer" data-bs-dismiss="modal">Close</button>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>

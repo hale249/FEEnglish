@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Học tiếng anh qua bài hát</title>
+    <!-- <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.1.1-web/css/all.min.css"> -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../css/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid ">
+          <div class="container__header">
+            <a href="/pages/home.html" class="container__header-logo">
+              <img src="/img/logo.png" alt="Logo"
+                class="container__header-logo-img">
+            </a>
+          </div>
+          <!-- <div class="container__form">
+            <form>
+              <div class="input-group">
+                <input type="text" class="container__form-input"
+                  placeholder="Tìm kiếm bài học" aria-label="Recipient's
+                  username" aria-describedby="button-addon2">
+                <button class="btn border-0 container__form-btn" type="button"><i
+                    class="bi bi-search"></i></button>
+              </div>
+            </form>
+          </div> -->
+          <div class="container__member">
+            <a class="container__member-login " data-bs-toggle="modal" data-bs-target="#loginModal">
+              <i class="bi bi-person-fill container__member-login-logo"></i>
+              Đăng nhập
+            </a>
+            <a class="container__member-register" data-bs-toggle="modal" data-bs-target="#registerModal">Đăng ký thành viên</a>
+          </div>
+        </div>
+      </nav>
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="nav_menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="/pages/home.html" class="nav__item-link nav__item-link-logo">
+                <i class="bi bi-house-fill nav__item-logo"></i>
+              </a>
+            </li>
+            <li class="nav__item nav__item--before">
+              <a href="./book_hightschool.html" class="nav__item-link">Tiếng anh phổ thông</a>
+              <div class="sub__nav">
+                <ul class="sub__nav-list">
+                  <li class="sub__nav-item">
+                    <a href="" class="sub__nav-item-link">Tiếng Anh lớp 6</a>
+                  </li>
+                  <li class="sub__nav-item">
+                    <a href="" class="sub__nav-item-link">Tiếng Anh lớp 6 - Sách
+                      mới</a>
+                  </li>
+                  <li class="sub__nav-item">
+                    <a href="" class="sub__nav-item-link">Giải bài tập SGK Tiếng
+                      Anh lớp 6 - Sách mới</a>
+                  </li>
+                  <li class="sub__nav-item">
+                    <a href="" class="sub__nav-item-link">Tiếng Anh lớp 7</a>
+                  </li>
+                  <li class="sub__nav-item">
+                    <a href="" class="sub__nav-item-link">Tiếng Anh lớp 7 - Sách
+                      mới</a>
+                  </li>
+                  <li class="sub__nav-item">
+                    <a href="" class="sub__nav-item-link">Tiếng Anh lớp 8</a>
+                  </li>
+                  <li class="sub__nav-item">
+                    <a href="" class="sub__nav-item-link">Tiếng Anh lớp 8 - Sách
+                      mới</a>
+                  </li>
+                  <li class="sub__nav-item">
+                    <a href="" class="sub__nav-item-link">Tiếng Anh lớp 9</a>
+                  </li>
+                  <li class="sub__nav-item">
+                    <a href="" class="sub__nav-item-link">Tiếng Anh lớp 9 - Sách
+                      mới</a>
+                  </li>
+                  <li class="sub__nav-item">
+                  </ul>
+                </div>
+              </li>
+              <li class="nav__item">
+                <a href="" class="nav__item-link">Kỹ năng</a>
+                <div class="sub__nav">
+                  <ul class="sub__nav-list">
+                    <li class="sub__nav-item">
+                      <a href="" class="sub__nav-item-link">Phát âm tiếng Anh</a>
+                    </li>
+                    <li class="sub__nav-item">
+                      <a href="" class="sub__nav-item-link">Ngữ pháp tiếng Anh</a>
+                    </li>
+                    <li class="sub__nav-item">
+                      <a href="" class="sub__nav-item-link">Từ vựng tiếng Anh</a>
+                    </li>
+                    <li class="sub__nav-item">
+                      <a href="" class="sub__nav-item-link">Nghe</a>
+                    </li>
+                    <li class="sub__nav-item">
+                      <a href="" class="sub__nav-item-link">Đọc</a>
+                    </li>
+                    <li class="sub__nav-item">
+                      <a href="" class="sub__nav-item-link">Viết</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="nav__item">
+                <a href="./news.html" class="nav__item-link">Học qua video</a>
+                <div class="sub__nav">
+                  <ul class="sub__nav-list">
+                    <li class="sub__nav-item sub__nav-item--fist-child">
+                      <a href="" class="sub__nav-item-link
+                        sub__nav-item-link--fist-child">Luyện nghe tiếng Anh</a>
+                      <div class="sub__child">
+                        <ul class="sub__chill-list">
+                          <li class="sub__chill-item">
+                            <a href="" class="sub__chill-item-link">Arts</a>
+                          </li>
+                          <li class="sub__chill-item">
+                            <a href="" class="sub__chill-item-link">Business</a>
+                          </li>
+                          <li class="sub__chill-item">
+                            <a href="" class="sub__chill-item-link">Interview</a>
+                          </li>
+                          <li class="sub__chill-item">
+                            <a href="" class="sub__chill-item-link">Travel</a>
+                          </li>
+                          <li class="sub__chill-item">
+                            <a href="" class="sub__chill-item-link">Opinion</a>
+                          </li>
+                          <li class="sub__chill-item">
+                            <a href="" class="sub__chill-item-link">Technology</a>
+                          </li>
+                          <li class="sub__chill-item">
+                            <a href="" class="sub__chill-item-link">Entertainment</a>
+                          </li>
+                          <li class="sub__chill-item">
+                            <a href="" class="sub__chill-item-link">Environment</a>
+                          </li>
+                        </ul>
+                        <ul class="sub__chill-list">
+                          <li class="sub__chill-item">
+                            <a href="" class="sub__chill-item-link">Health</a>
+                          </li>
+                          <li class="sub__chill-item">
+                            <a href="" class="sub__chill-item-link">Living</a>
+                          </li>
+                          <li class="sub__chill-item">
+                            <a href="" class="sub__chill-item-link">Sports</a>
+                          </li>
+                          <li class="sub__chill-item">
+                            <a href="" class="sub__chill-item-link">Weather</a>
+                          </li>
+                          <li class="sub__chill-item">
+                            <a href="" class="sub__chill-item-link">Animals</a>
+                          </li>
+                          <li class="sub__chill-item">
+                            <a href="" class="sub__chill-item-link">Finance</a>
+                          </li>
+                          <li class="sub__chill-item">
+                            <a href="" class="sub__chill-item-link">News</a>
+                          </li>
+                          <li class="sub__chill-item">
+                            <a href="" class="sub__chill-item-link">Science</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li class="sub__nav-item">
+                      <a href="" class="sub__nav-item-link">VOA: English in a
+                        Minute</a>
+                    </li>
+                    <li class="sub__nav-item">
+                      <a href="" class="sub__nav-item-link">Học tiếng Anh qua
+                        CNN</a>
+                    </li>
+                    <li class="sub__nav-item">
+                      <a href="" class="sub__nav-item-link">Học tiếng Anh qua
+                        BBC</a>
+                    </li>
+                    <li class="sub__nav-item">
+                      <a href="" class="sub__nav-item-link">Học tiếng Anh qua
+                        Video VOA</a>
+                    </li>
+                    <li class="sub__nav-item">
+                      <a href="" class="sub__nav-item-link">Học tiếng Anh với
+                        người nổi tiếng</a>
+                    </li>
+                    <li class="sub__nav-item">
+                      <a href="" class="sub__nav-item-link">Học tiếng Anh qua
+                        Youtube</a>
+                    </li>
+                    <li class="sub__nav-item">
+                      <a href="" class="sub__nav-item-link">Học tiếng Anh qua
+                        Video TED</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="nav__item">
+                <a href="./dictionary.html" class="nav__item-link">Tra từ điển</a>
+              </li>
+              <li class="nav__item">
+                <a href="./xp.html" class="nav__item-link">Bài viết</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div class="banner__top"></div>
+        <div class="banner__body"></div>
+        <div class="container container__background">
+            <div>
+                <div>
+                    <div class="pb-5">
+                        <h3 class="heading__h border-bottom text-danger">Học tiếng Anh qua bài hát
+                        </h3>
+                        <div>
+                            <div class="d-flex align-items-center">
+                                <a class="lesten" href="./music_1.html"><img class="border shadow-sm p-3 m-2 bg-body rounded" src="/img/music/bai226.jpg" alt=""  width="160px" height="120px"></a>
+                                <div class="">
+                                    <div class="border-bottom pb-3">
+                                        <a class="lesten" href="./music_1.html"><p class="font-size mb-0 text-dark">
+                                            If You're Not The One</p></a>
+                                        <span>If you're not the one, then why does my soul feel glad today?
+                                            If you're not the one, then why does my hand fit yours this way?
+                                            If you are not mine, then why does your heart return my call?
+                                            If you are not mine, would I have the strength to stand at all?</span>
+                                    </div>
+                                    <div>
+                                        <span class="text-muted"><i class="bi bi-eye-fill p-1"></i>643</span>
+                                        <span class="text-muted p-3"><i class="bi bi-chat-right-dots-fill p-1"></i>132</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center bg-success p-2 text-dark bg-opacity-10">
+                                <a class="lesten" href=""><img class="border shadow-sm p-3 m-2 bg-body rounded" src="/img/music/bai225.jpg" alt=""   width="160px" height="120px"></a>
+                                <div class="">
+                                    <div class="border-bottom pb-3 ">
+                                        <a class="lesten" href=""><p class="font-size mb-0 text-dark">Let It Go</p></a>
+                                        <span>Let it go, let it go. 
+                                            Can’t hold you back anymore. 
+                                            Let it go, let it go. 
+                                            Turn my back and slam the door.</span>
+                                    </div>
+                                    <div>
+                                        <span class="text-muted"><i class="bi bi-eye-fill p-1"></i>1243</span>
+                                        <span class="text-muted p-3"><i class="bi bi-chat-right-dots-fill p-1"></i>56</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <a class="lesten" href=""><img class="border shadow-sm p-3 m-2 bg-body rounded" src="/img/music/bai224.jpg" alt=""   width="160px" height="120px"></a>
+                                <div class="">
+                                    <div class="border-bottom pb-3 ">
+                                        <a class="lesten" href=""><p class="font-size mb-0 text-dark">
+                                            Titanium</p></a>
+                                        <span>You shout it out. 
+                                            But I can't hear a word you say</span>
+                                    </div>
+                                    <div>
+                                        <span class="text-muted"><i class="bi bi-eye-fill p-1"></i>642</span>
+                                        <span class="text-muted p-3"><i class="bi bi-chat-right-dots-fill p-1"></i>56</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center bg-success p-2 text-dark bg-opacity-10">
+                                <a class="lesten" href=""><img class="border shadow-sm p-3 m-2 bg-body rounded" src="/img/music/bai223.jpg" alt=""   width="160px" height="120px"></a>
+                                <div class="">
+                                    <div class="border-bottom pb-3 ">
+                                        <a class="lesten" href=""><p class="font-size mb-0 text-dark">Let Me Go</p></a>
+                                        <span>Love that once hung on the wall</span>
+                                    </div>
+                                    <div>
+                                        <span class="text-muted"><i class="bi bi-eye-fill p-1"></i>4432</span>
+                                        <span class="text-muted p-3"><i class="bi bi-chat-right-dots-fill p-1"></i>424</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <a class="lesten" href=""><img class="border shadow-sm p-3 m-2 bg-body rounded" src="/img/music/thump.jpg" alt=""   width="160px" height="120px"></a>
+                                <div class="">
+                                    <div class="border-bottom pb-3 ">
+                                        <a class="lesten" href=""><p class="font-size mb-0 text-dark">
+                                            One More Night</p></a>
+                                        <span>You and I go hard, at each other like we going to war. 
+                                            You and I go rough, we keep throwing things and slamming the doors...</span>
+                                    </div>
+                                    <div>
+                                        <span class="text-muted"><i class="bi bi-eye-fill p-1"></i>4313</span>
+                                        <span class="text-muted p-3"><i class="bi bi-chat-right-dots-fill p-1"></i>565</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center bg-success p-2 text-dark bg-opacity-10">
+                                <a class="lesten" href=""><img class="border shadow-sm p-3 m-2 bg-body rounded" src="/img/music/thump (1).jpg" alt=""   width="160px" height="120px"></a>
+                                <div class="">
+                                    <div class="border-bottom pb-3 ">
+                                        <a class="lesten" href=""><p class="font-size mb-0 text-dark">Counting Stars</p></a>
+                                        <span>Lately, Ive been, Ive been losing sleep Dreaming about the things that we could be</span>
+                                    </div>
+                                    <div>
+                                        <span class="text-muted"><i class="bi bi-eye-fill p-1"></i>122423</span>
+                                        <span class="text-muted p-3"><i class="bi bi-chat-right-dots-fill p-1"></i>564</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <a class="lesten" href=""><img class="border shadow-sm p-3 m-2 bg-body rounded" src="/img/music/thump (2).jpg" alt=""   width="160px" height="120px"></a>
+                                <div class="">
+                                    <div class="border-bottom pb-3 ">
+                                        <a class="lesten" href=""><p class="font-size mb-0 text-dark">Numb</p></a>
+                                        <span>I'm tired of being what you want me to be. 
+                                            Feeling so faithless, lost under the surface</span>
+                                    </div>
+                                    <div>
+                                        <span class="text-muted"><i class="bi bi-eye-fill p-1"></i>34523</span>
+                                        <span class="text-muted p-3"><i class="bi bi-chat-right-dots-fill p-1"></i>564</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center bg-success p-2 text-dark bg-opacity-10">
+                                <a class="lesten" href=""><img class="border shadow-sm p-3 m-2 bg-body rounded" src="/img/music/thump (3).jpg" alt=""   width="160px" height="120px"></a>
+                                <div class="">
+                                    <div class="border-bottom pb-3 ">
+                                        <a class="lesten" href=""><p class="font-size mb-0 text-dark">Wake Me Up</p></a>
+                                        <span>Feeling my way through the darkness. 
+                                            Guided by a beating heart</span>
+                                    </div>
+                                    <div>
+                                        <span class="text-muted"><i class="bi bi-eye-fill p-1"></i>125323</span>
+                                        <span class="text-muted p-3"><i class="bi bi-chat-right-dots-fill p-1"></i>34236</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <a class="lesten" href=""><img class="border shadow-sm p-3 m-2 bg-body rounded" src="/img/music/thump (4).jpg" alt=""   width="160px" height="120px"></a>
+                                <div class="">
+                                    <div class="border-bottom pb-3">
+                                        <a class="lesten" href=""><p class="font-size mb-0 text-dark">
+                                            As long as you love me</p></a>
+                                        <span>As long as you love me. 
+                                            I am under pressure</span>
+                                    </div>
+                                    <div>
+                                        <span class="text-muted"><i class="bi bi-eye-fill p-1"></i>537</span>
+                                        <span class="text-muted p-3"><i class="bi bi-chat-right-dots-fill p-1"></i>121</span>
+                                    </div>
+                                </div>                     
+                            </div>
+                        </div>               
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination mb-0 pb-4 justify-content-center">
+                      <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Previous">
+                          <span aria-hidden="true">&laquo;</span>
+                        </a>
+                      </li>
+                      <li class="page-item"><a class="page-link" href="#">1</a></li>
+                      <li class="page-item"><a class="page-link" href="#">2</a></li>
+                      <li class="page-item"><a class="page-link" href="#">3</a></li>
+                      <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Next">
+                          <span aria-hidden="true">&raquo;</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </nav>
+            </div>
+        </div>
+        <footer class="footer">
+          <div class="container">
+            <div class="row">
+              <div class="col-4">
+                <ul class="footer__list">
+                  <li class="footer__list-item">
+                    <a class="footer__list-item-link" href="">Tin Tức</a>
+                  </li>
+                  <li>
+                    <a class="footer__list-item-link" href="">Tin tức từ
+                      TiếngAnh123</a>
+                  </li>
+                  <li>
+                    <a class="footer__list-item-link" href="">Kinh
+                      nghiệm học tập</a>
+                  </li>
+                  <li>
+                    <a class="footer__list-item-link" href="">Hướng dẫn
+                      sử dụng</a>
+                  </li>
+                  <li>
+                    <a class="footer__list-item-link" href="">Nhận xét
+                      mới nhất</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-4">
+                <ul class="footer__list">
+                  <li class="footer__list-item">
+                    <a class="footer__list-item-link" href="">Tiếng Anh
+                      phổ thông</a>
+                  </li>
+                  <li>
+                    <a class="footer__list-item-link" href="">Tiếng Anh
+                      lớp 6</a>
+                  </li>
+                  <li>
+                    <a class="footer__list-item-link" href="">Tiếng Anh
+                      lớp 7</a>
+                  </li>
+                  <li>
+                    <a class="footer__list-item-link" href="">Tiếng Anh
+                      lớp 8</a>
+                  </li>
+                  <li>
+                    <a class="footer__list-item-link" href="">Tiếng Anh
+                      lớp 9</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-4">
+                <ul class="footer__list">
+                  <li class="footer__list-item">
+                    <a class="footer__list-item-link" href="">Chấm điểm
+                      online</a>
+                  </li>
+                  <li>
+                    <a class="footer__list-item-link" href="">Viết qua
+                      tranh (dễ)</a>
+                  </li>
+                  <li>
+                    <a class="footer__list-item-link" href="">Viết bài
+                      luận</a>
+                  </li>
+                  <li>
+                    <a class="footer__list-item-link" href="">Luyện đọc
+                      đoạn văn</a>
+                  </li>
+                  <li>
+                    <a class="footer__list-item-link" href="">Nghe và
+                      viết lại</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
+                        <!-- Dang nhap -->
+                        <div class="modal fade" id="loginModal"
+                        data-bs-backdrop="static" data-bs-keyboard="false"
+                        tabindex="-1" aria-labelledby="staticBackdropLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-body">
+                              <h4>Đăng nhập</h4>
+                            <form action="">
+                              <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control form-input" id="email" placeholder="Nhập email">
+                              </div>
+                              <div class="mb-3">
+                                <label for="password" class="form-label">Password</label>
+                                <input type="password" class="form-control form-input" id="password" placeholder="Nhập mật khẩu">
+                              </div>
+                            </form>
+                            <div  class="modal-footer">
+                              <button type="submit" class="btn btn-primary btn-primary__focus">Đăng nhập</button>
+                              <button type="button" class="btn btn-secondary btn-primary__closer" data-bs-dismiss="modal">Close</button>
+                            </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+      
+                      <!-- Dang ky -->
+                      <div class="modal fade" id="registerModal"
+                      data-bs-backdrop="static" data-bs-keyboard="false"
+                      tabindex="-1" aria-labelledby="staticBackdropLabel"
+                      aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-body">
+                            <h4>Đăng ký</h4>
+                            <form action="">
+                              <div class="mb-3">
+                                <label for="name" class="form-label">Tên</label>
+                                <input type="text" class="form-control form-input" id="name" placeholder="Nhập tên">
+                              </div>
+                              <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control form-input" id="email" placeholder="Nhập email">
+                              </div>
+                              <div class="mb-3">
+                                <label for="password" class="form-label">Password</label>
+                                <input type="password" class="form-control form-input" id="password" placeholder="Nhập mật khẩu">
+                              </div>
+                              <div  class="modal-footer">
+                                <button type="submit" class="btn btn-primary btn-primary__focus">Đăng ký</button>
+                                <button type="button" class="btn btn-secondary btn-primary__closer" data-bs-dismiss="modal">Close</button>
+                              </div>
+                            </form>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+      </div>
+      <script src="../js/bootstrap.min.js"></script>
+    </body>
+  </html>
